@@ -1,3 +1,0 @@
-#!/bin/bash
-
-sed -n 's/Number of Hits for word //p' output
