@@ -1,0 +1,9 @@
+#The purpose of this program was originally to help a friend parse over some files to check for specific
+#occurences of websites across html and other web files (mainly to check if there were existing malicious links and what not
+#for a project he was working on). I decided to flesh it out a bit. I'm very sure there are plenty of other
+#tools out there that do everything this one does (grep probably does all of it) but this was just for fun and experience.
+
+
+#Also included an isolateHits bash script to pull the specific words and their hits
+
+#Does not recurse through subdirectories as it sits, not sure but I might come back to it.
