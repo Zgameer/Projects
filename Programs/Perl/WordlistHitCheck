@@ -7,3 +7,7 @@
 #Also included an isolateHits bash script to pull the specific words and their hits
 
 #Does not recurse through subdirectories as it sits, not sure but I might come back to it.
+
+
+
+#essentially, when given a regular expression 'expr' that details a filename, a file <f> of words to hit-check for, and a directory <d> to check for files containing the regex and to hit-check the wordlist against, the program will open all files that match the regex and see if they contain any of the words in the supplied wordlist. It will return a formatted list of how many times a particular word was found, in which files it was found, and how long it took to find all the information.
